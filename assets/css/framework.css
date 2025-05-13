@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Manrope;
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+
+:root
+{
+    --font-color: rgb(0, 86, 112);
+    --font-color-3: rgb(0, 32, 37);
+    --font-color-2: white;
+    --primary-color: hsl(202, 100%, 50%);
+    --primary-color-2: hsla(202, 100%, 50%, 0.8);
+    --secondary-color: hsla(0, 0%, 90%);
+    --secondary-color-2: hsl(0, 0%, 80%);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+
+dialog {
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+
+    /* https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/ */
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+body {
+    min-height: 100vh;
+
+}
+
+img,
+picture {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn-primary
+{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--font-color-2);
+    cursor: pointer;
+    width: fit-content;
+}
+
+.btn-primary:hover
+{
+    background-color: var(--primary-color-2);
+}
+
+.btn-secondary
+{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    width: fit-content;
+}
+
+.btn-secondary:hover
+{
+    background-color: var(--secondary-color-2);
+}
+
+.link
+{
+    position: relative;
+    color: var(--font-color);
+    width: fit-content;
+    text-decoration: none;
+}
+.link:visited
+{
+    color: var(--font-color-3);
+}
+
+.tarjeta
+{
+    border: 1px solid black;
+    min-height: 3rem;
+}
+
+.col {
+    flex: 1 0 0;
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+@import url(./framework.css);
+.grupo
+{
+    display: block;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+section
+{
+    padding: 2rem;
+}
+
+nav
+{
+    display: flex;   
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contenedor
+{
+    display: flex;
+}
+
+.link-inactive
+{
+    color: var(--font-color);
+    text-decoration: none;
+}
