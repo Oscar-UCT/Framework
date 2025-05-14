@@ -1,10 +1,9 @@
 @font-face {
-    font-family: Manrope;
+    font-family: "Manrope";
     src: url(../fonts/Manrope-VariableFont_wght.ttf);
 }
 
-:root
-{
+:root {
     --font-color: rgb(0, 86, 112);
     --font-color-3: rgb(0, 32, 37);
     --font-color-2: white;
@@ -19,7 +18,7 @@
 *::before {
     margin: 0;
     box-sizing: border-box;
-    font-family: Manrope;
+    font-family: "Manrope";
 }
 
 dialog {
@@ -37,7 +36,6 @@ html {
 
 body {
     min-height: 100vh;
-
 }
 
 img,
@@ -47,8 +45,7 @@ picture {
     display: block;
 }
 
-.btn-primary
-{
+.btn-primary {
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     border: none;
@@ -58,13 +55,11 @@ picture {
     width: fit-content;
 }
 
-.btn-primary:hover
-{
+.btn-primary:hover {
     background-color: var(--primary-color-2);
 }
 
-.btn-secondary
-{
+.btn-secondary {
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     border: none;
@@ -73,25 +68,36 @@ picture {
     width: fit-content;
 }
 
-.btn-secondary:hover
-{
+.btn-secondary:hover {
     background-color: var(--secondary-color-2);
 }
 
-.link
-{
-    position: relative;
+.link { 
     color: var(--font-color);
     width: fit-content;
     text-decoration: none;
 }
-.link:visited
-{
+
+.link:visited {
     color: var(--font-color-3);
 }
 
-.tarjeta
-{
+.link:hover {
+    color: var(--font-color);
+}
+
+.link-2 {
+    color: var(--font-color-2);
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 700;
+}
+.link-2:hover {
+    text-shadow: 1px 1px 1px gray;
+}
+
+
+.tarjeta {
     border: 1px solid black;
     min-height: 3rem;
 }
@@ -158,4 +164,57 @@ picture {
 .col-12 {
     flex: 0 0 auto;
     width: 100%;
+}
+
+.columnas {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.grid-col-1 {
+    grid-column: span 1;
+}
+
+.grid-col-2 {
+    grid-column: span 2;
+}
+
+.grid-col-3 {
+    grid-column: span 3;
+}
+
+.grid-col-4 {
+    grid-column: span 4;
+}
+
+.grid-col-5 {
+    grid-column: span 5;
+}
+
+.grid-col-6 {
+    grid-column: span 6;
+}
+
+.grid-col-7 {
+    grid-column: span 7;
+}
+
+.grid-col-8 {
+    grid-column: span 8;
+}
+
+.grid-col-9 {
+    grid-column: span 9;
+}
+
+.grid-col-10 {
+    grid-column: span 10;
+}
+
+.grid-col-11 {
+    grid-column: span 11;
+}
+
+.grid-col {
+    grid-column: span 12;
 }

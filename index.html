@@ -1,100 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css" />
     <title>Framework OCM</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Framework OCM</h1>
-        <nav>
-            <a href="" class="link">Botones</a>
-            <a href="" class="link">Links</a>
-            <a href="" class="link"></a>
-        </nav>
+      <h1>Framework OCM</h1>
+      <nav>
+        <a href="https://github.com/oscar-uct/Framework" class="link-2" target="_blank">GitHub</a>
+      </nav>
     </header>
-    <section id="columnas" >
-        <h2>Columnas</h2>
-        <div class="contenedor">
-            <div class="col tarjeta">
-            </div>
+    <div id="contenido">
+      <aside class="grid-col-2">
+        <h2>Componentes</h2>
+        <div>
+          <ol>
+            <li><a href="#columnas" class="link">Columnas Flexbox</a></li>
+            <li><a href="#columnas-grid" class="link">Columnas Grid</a></li>
+            <li><a href="#links" class="link">Links</a></li>
+            <li><a href="#botones" class="link">Botones</a></li>
+          </ol>
         </div>
-        <div class="contenedor">
-            <div class="col-6 tarjeta">
-            </div>
-            <div class="col-6 tarjeta">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="col-4 tarjeta">
-            </div>
-            <div class="col-4 tarjeta">
-            </div>
-            <div class="col-4 tarjeta">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="col-2 tarjeta">
-            </div>
-            <div class="col-2 tarjeta">
-            </div>
-            <div class="col-2 tarjeta">
-            </div>
-            <div class="col-2 tarjeta">
-            </div>
-            <div class="col-2 tarjeta">
-            </div>
-            <div class="col-2 tarjeta">
-            </div>
-        </div>
-        <div class="contenedor">
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-            <div class="col-1 tarjeta">
-            </div>
-        </div>
-    </section>
-    <section id="links">
-        <h2>Links</h2>
-        <div class="grupo">
+      </aside>
+      <main class="grid-col-10">
+        <section id="columnas">
+          <h2>Columnas con Flexbox</h2>
+          <div class="contenedor">
+            <div class="col tarjeta">col</div>
+          </div>
+          <div class="contenedor">
+            <div class="col-6 tarjeta">col-6</div>
+            <div class="col-6 tarjeta">col-6</div>
+          </div>
+          <div class="contenedor">
+            <div class="col-4 tarjeta">col-4</div>
+            <div class="col-4 tarjeta">col-4</div>
+            <div class="col-4 tarjeta">col-4</div>
+          </div>
+          <div class="contenedor">
+            <div class="col-2 tarjeta">col-2</div>
+            <div class="col-2 tarjeta">col-2</div>
+            <div class="col-2 tarjeta">col-2</div>
+            <div class="col-2 tarjeta">col-2</div>
+            <div class="col-2 tarjeta">col-2</div>
+            <div class="col-2 tarjeta">col-2</div>
+          </div>
+          <div class="contenedor">
+            <div class="col-8 tarjeta">col-8</div>
+            <div class="col-4 tarjeta">col-4</div>
+          </div>
+          <div class="contenedor">
+            <div class="col-4 tarjeta">col-4</div>
+            <div class="col-8 tarjeta">col-8</div>
+          </div>
+        </section>
+        <section id="columnas-grid">
+          <h2>Columnas con Grid</h2>
+          <div class="columnas">
+            <div class="grid-col tarjeta">grid-col</div>
+          </div>
+          <div class="columnas">
+            <div class="grid-col-6 tarjeta">grid-col-6</div>
+            <div class="grid-col-6 tarjeta">grid-col-6</div>
+          </div>
+          <div class="columnas">
+            <div class="grid-col-4 tarjeta">grid-col-4</div>
+            <div class="grid-col-4 tarjeta">grid-col-4</div>
+            <div class="grid-col-4 tarjeta">grid-col-4</div>
+          </div>
+          <div class="columnas">
+            <div class="grid-col-3 tarjeta">grid-col-3</div>
+            <div class="grid-col-3 tarjeta">grid-col-3</div>
+            <div class="grid-col-3 tarjeta">grid-col-3</div>
+            <div class="grid-col-3 tarjeta">grid-col-3</div>
+          </div>
+          <div class="columnas">
+            <div class="grid-col-1 tarjeta">grid-col-1</div>
+            <div class="grid-col-8 tarjeta">grid-col-8</div>
+            <div class="grid-col-2 tarjeta">grid-col-2</div>
+            <div class="grid-col-1 tarjeta">grid-col-1</div>
+          </div>
+        </section>
+        <section id="links">
+          <h2>Links</h2>
+          <div class="grupo">
             <a href="" class="link-inactive">Link normal</a>
-        </div>
-        <div class="grupo">
+          </div>
+          <div class="grupo">
             <a href="" class="link">Link presionado</a>
-        </div>
-    </section>
-    <section id="botones">
-        <h2>Botones</h2>
-        <div class="grupo">
-            <h3>Botón primario</h3>
-            <button class="btn-primary">Botón</button>
-        </div>
-        <div class="grupo">
-            <h3>Botón secundario</h3>
-            <button class="btn-secondary">Botón</button>
-        </div>
-    </section>
-</body>
+          </div>
+        </section>
+        <section id="botones">
+          <h2>Botones</h2>
+            <button class="btn-primary">Botón primario</button>
+            <button class="btn-secondary">Botón secundario</button>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
