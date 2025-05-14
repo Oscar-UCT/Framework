@@ -1,2 +1,3 @@
 # Framework
-Framework de prueba con CSS
+Framework personal en CSS.
+**EN CONSTRUCCIÓN**
